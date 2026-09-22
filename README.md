@@ -10,6 +10,10 @@ Private, credential-safe guidance for using coding-agent clients and Visual Stud
 4. Follow its client-specific instructions. Do not install a configuration for the other service.
 5. Obtain service access and configuration values through the approved GMAO channel. Do not request or add credentials in GitHub issues, pull requests, or chat.
 
+## NAS restriction
+
+AI agent harnesses, including the clients documented in this repository, are not allowed on [NASA Advanced Supercomputing (NAS)](https://www.nas.nasa.gov/) systems. Do not install or configure them there.
+
 ## Services
 
 ### NASA Chat

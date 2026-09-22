@@ -1,0 +1,14 @@
+# Credentials, local configuration, and certificates must never be committed.
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Local editor and operating-system files.
+.DS_Store
+.vscode/

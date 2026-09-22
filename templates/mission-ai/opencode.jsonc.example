@@ -3,30 +3,6 @@
   "disabled_providers": ["opencode"],
   "share": "disabled",
   "provider": {
-    "nasa_asksage_anthropic": {
-      "npm": "@ai-sdk/anthropic",
-      "name": "NASA Ask Sage (Anthropic)",
-      "options": {
-        "baseURL": "https://api.asksage.ai.nasa.gov/server/anthropic/v1"
-      },
-      "models": {
-        "claude-sonnet-5": { "name": "Claude Sonnet 5" },
-        "claude-sonnet-4.6": { "name": "Claude Sonnet 4.6" },
-        "claude-haiku-4.5": { "name": "Claude Haiku 4.5" }
-      }
-    },
-    "nasa_asksage_openai": {
-      "npm": "@ai-sdk/openai",
-      "name": "NASA Ask Sage (OpenAI)",
-      "options": {
-        "baseURL": "https://api.asksage.ai.nasa.gov/server/openai/v1"
-      },
-      "models": {
-        "gpt-5.6-sol": { "name": "GPT-5.6 Sol" },
-        "gpt-5.6-terra": { "name": "GPT-5.6 Terra" },
-        "gpt-5.6-luna": { "name": "GPT-5.6 Luna" }
-      }
-    },
     "nasa_mission_ai": {
       "npm": "@ai-sdk/openai-compatible",
       "name": "NASA Mission AI LiteLLM",

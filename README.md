@@ -6,9 +6,19 @@ Private, credential-safe guidance for using coding-agent clients and Visual Stud
 
 1. Read [Security](SECURITY.md) before configuring a client.
 2. Confirm that your intended data and repository are approved for the service.
-3. Select a client: [OpenCode](docs/clients/opencode.md), [Claude Code](docs/clients/claude-code.md), or [Visual Studio Code](docs/clients/vscode.md).
-4. Select the approved service: [NASA Chat / Ask Sage](docs/providers/nasa-chat-asksage.md) or [Mission AI](docs/providers/mission-ai.md).
+3. Select only the service you are authorized to use.
+4. Follow its client-specific instructions. Do not install a configuration for the other service.
 5. Obtain service access and configuration values through the approved GMAO channel. Do not request or add credentials in GitHub issues, pull requests, or chat.
+
+## Services
+
+### NASA Chat / Ask Sage
+
+NASA Chat is available through [OpenCode](docs/nasa-chat/opencode.md), [Claude Code](docs/nasa-chat/claude-code.md), and [Visual Studio Code](docs/nasa-chat/vscode.md).
+
+### Mission AI
+
+Mission AI is available through [OpenCode](docs/mission-ai/opencode.md) and [Visual Studio Code](docs/mission-ai/vscode.md). Its documented LiteLLM endpoint is OpenAI-compatible, so it is not a Claude Code configuration.
 
 ## Scope
 
@@ -18,9 +28,11 @@ The NASA Chat and Mission AI endpoint and model information here is for GMAO use
 
 ## Templates
 
-- [OpenCode configuration](templates/opencode/opencode.jsonc.example)
-- [Claude Code settings template](templates/claude-code/settings.json.example)
-- [VS Code language-model configuration](templates/vscode/chatLanguageModels.json.example)
+- [NASA Chat OpenCode](templates/nasa-chat/opencode.jsonc.example)
+- [NASA Chat Claude Code](templates/nasa-chat/claude-code-settings.json.example)
+- [NASA Chat VS Code](templates/nasa-chat/chatLanguageModels.json.example)
+- [Mission AI OpenCode](templates/mission-ai/opencode.jsonc.example)
+- [Mission AI VS Code](templates/mission-ai/chatLanguageModels.json.example)
 
 Copy a template to the client configuration location documented in its guide. Keep credentials in the approved local secret store or environment; never put a secret in the copied configuration.
 

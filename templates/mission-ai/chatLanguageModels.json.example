@@ -1,25 +1,5 @@
 [
   {
-    "name": "NASA Ask Sage (OpenAI)",
-    "vendor": "customendpoint",
-    "apiType": "chat-completions",
-    "models": [
-      { "id": "gpt-5.6-sol", "name": "GPT-5.6 Sol", "url": "https://api.asksage.ai.nasa.gov/server/openai/v1/chat/completions", "toolCalling": true, "vision": true, "maxInputTokens": 196608, "maxOutputTokens": 32768 },
-      { "id": "gpt-5.6-terra", "name": "GPT-5.6 Terra", "url": "https://api.asksage.ai.nasa.gov/server/openai/v1/chat/completions", "toolCalling": true, "vision": true, "maxInputTokens": 196608, "maxOutputTokens": 32768 },
-      { "id": "gpt-5.6-luna", "name": "GPT-5.6 Luna", "url": "https://api.asksage.ai.nasa.gov/server/openai/v1/chat/completions", "toolCalling": true, "vision": true, "maxInputTokens": 196608, "maxOutputTokens": 32768 }
-    ]
-  },
-  {
-    "name": "NASA Ask Sage (Anthropic)",
-    "vendor": "customendpoint",
-    "apiType": "messages",
-    "models": [
-      { "id": "claude-sonnet-5", "name": "Claude Sonnet 5", "url": "https://api.asksage.ai.nasa.gov/server/anthropic/v1/messages", "toolCalling": true, "vision": true, "maxInputTokens": 180000, "maxOutputTokens": 20000 },
-      { "id": "claude-sonnet-4.6", "name": "Claude Sonnet 4.6", "url": "https://api.asksage.ai.nasa.gov/server/anthropic/v1/messages", "toolCalling": true, "vision": true, "maxInputTokens": 180000, "maxOutputTokens": 20000 },
-      { "id": "claude-haiku-4.5", "name": "Claude Haiku 4.5", "url": "https://api.asksage.ai.nasa.gov/server/anthropic/v1/messages", "toolCalling": true, "vision": true, "maxInputTokens": 180000, "maxOutputTokens": 20000 }
-    ]
-  },
-  {
     "name": "NASA Mission AI LiteLLM",
     "vendor": "customendpoint",
     "apiType": "chat-completions",

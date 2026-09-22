@@ -1,0 +1,36 @@
+# NASA Chat with Claude Code
+
+Use this guide only if you are authorized to use NASA Chat / Ask Sage. Claude Code uses NASA Chat's Anthropic-compatible gateway. It does not configure Mission AI.
+
+## Install
+
+Use the current [Claude Code setup documentation](https://code.claude.com/docs/en/setup), then verify the installation:
+
+```bash
+claude --version
+claude doctor
+```
+
+## Configure
+
+1. Merge the `env` and `model` settings from the [NASA Chat Claude Code template](../../templates/nasa-chat/claude-code-settings.json.example) into `~/.claude/settings.json`.
+2. In the terminal session where you launch Claude Code, provide your NASA Chat key without adding it to `settings.json`:
+
+   ```bash
+   export ANTHROPIC_API_KEY="your-nasa-chat-key"
+   claude
+   ```
+
+3. Run `/status` to verify the configured base URL and environment-provided API key.
+
+## Gateway notes
+
+`ANTHROPIC_BASE_URL` is `https://api.asksage.ai.nasa.gov/server/anthropic`, with no trailing `/v1`. Claude Code appends `/v1/messages`; adding `/v1` here produces the invalid `/v1/v1/messages` path and can appear as a model error.
+
+The template disables adaptive thinking and experimental beta request fields because some gateway versions reject them. If the initial API-key approval was declined, Claude Code can return to the login selector and ignore the configured key. Follow the troubleshooting guidance before changing `~/.claude.json`.
+
+## References
+
+- [Claude Code settings](https://code.claude.com/docs/en/settings)
+- [Connect Claude Code to an LLM gateway](https://code.claude.com/docs/en/llm-gateway-connect)
+- [Ask Sage Claude Code integration](https://docs.asksage.ai/integrations/claude-code/)

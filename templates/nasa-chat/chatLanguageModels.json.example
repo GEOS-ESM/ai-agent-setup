@@ -1,6 +1,6 @@
 [
   {
-    "name": "NASA Ask Sage (OpenAI)",
+    "name": "NASA Chat (OpenAI)",
     "vendor": "customendpoint",
     "apiType": "chat-completions",
     "models": [
@@ -10,7 +10,7 @@
     ]
   },
   {
-    "name": "NASA Ask Sage (Anthropic)",
+    "name": "NASA Chat (Anthropic)",
     "vendor": "customendpoint",
     "apiType": "messages",
     "models": [

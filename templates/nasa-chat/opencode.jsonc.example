@@ -3,9 +3,9 @@
   "disabled_providers": ["opencode"],
   "share": "disabled",
   "provider": {
-    "nasa_asksage_anthropic": {
+    "nasa_chat_anthropic": {
       "npm": "@ai-sdk/anthropic",
-      "name": "NASA Ask Sage (Anthropic)",
+      "name": "NASA Chat (Anthropic)",
       "options": {
         "baseURL": "https://api.asksage.ai.nasa.gov/server/anthropic/v1"
       },
@@ -15,9 +15,9 @@
         "claude-haiku-4.5": { "name": "Claude Haiku 4.5" }
       }
     },
-    "nasa_asksage_openai": {
+    "nasa_chat_openai": {
       "npm": "@ai-sdk/openai",
-      "name": "NASA Ask Sage (OpenAI)",
+      "name": "NASA Chat (OpenAI)",
       "options": {
         "baseURL": "https://api.asksage.ai.nasa.gov/server/openai/v1"
       },

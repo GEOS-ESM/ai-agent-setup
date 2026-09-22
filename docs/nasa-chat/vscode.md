@@ -1,6 +1,6 @@
 # NASA Chat with Visual Studio Code
 
-Use this guide only if you are authorized to use NASA Chat / Ask Sage. The template configures NASA Chat's OpenAI-compatible and Anthropic-compatible custom language models, but does not configure Mission AI.
+Use this guide only if you are authorized to use NASA Chat. The template configures NASA Chat's OpenAI-compatible and Anthropic-compatible custom language models, but does not configure Mission AI.
 
 1. In VS Code, run **Chat: Manage Language Models** from the Command Palette.
 2. Open `chatLanguageModels.json` from that view. On macOS, the usual location is `~/Library/Application Support/Code/User/chatLanguageModels.json`.

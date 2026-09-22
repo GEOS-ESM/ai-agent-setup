@@ -12,7 +12,7 @@ Private, credential-safe guidance for using coding-agent clients and Visual Stud
 
 ## Services
 
-### NASA Chat / Ask Sage
+### NASA Chat
 
 NASA Chat is available through [OpenCode](docs/nasa-chat/opencode.md), [Claude Code](docs/nasa-chat/claude-code.md), and [Visual Studio Code](docs/nasa-chat/vscode.md).
 
@@ -42,5 +42,5 @@ Copy a template to the client configuration location documented in its guide. Ke
 - [OpenCode providers](https://opencode.ai/docs/providers/)
 - [Claude Code settings](https://code.claude.com/docs/en/settings)
 - [Claude Code LLM gateways](https://code.claude.com/docs/en/llm-gateway)
-- [Ask Sage OpenCode integration](https://docs.asksage.ai/integrations/opencode/)
-- [Ask Sage Claude Code integration](https://docs.asksage.ai/integrations/claude-code/)
+- [NASA Chat OpenCode integration reference](https://docs.asksage.ai/integrations/opencode/)
+- [NASA Chat Claude Code integration reference](https://docs.asksage.ai/integrations/claude-code/)

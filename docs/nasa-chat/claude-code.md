@@ -1,6 +1,6 @@
 # NASA Chat with Claude Code
 
-Use this guide only if you are authorized to use NASA Chat / Ask Sage. Claude Code uses NASA Chat's Anthropic-compatible gateway. It does not configure Mission AI.
+Use this guide only if you are authorized to use NASA Chat. Claude Code uses NASA Chat's Anthropic-compatible gateway. It does not configure Mission AI.
 
 ## Install
 
@@ -33,4 +33,4 @@ The template disables adaptive thinking and experimental beta request fields bec
 
 - [Claude Code settings](https://code.claude.com/docs/en/settings)
 - [Connect Claude Code to an LLM gateway](https://code.claude.com/docs/en/llm-gateway-connect)
-- [Ask Sage Claude Code integration](https://docs.asksage.ai/integrations/claude-code/)
+- [NASA Chat Claude Code integration reference](https://docs.asksage.ai/integrations/claude-code/)

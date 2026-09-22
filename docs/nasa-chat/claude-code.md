@@ -2,6 +2,8 @@
 
 Use this guide only if you are authorized to use NASA Chat. Claude Code uses NASA Chat's Anthropic-compatible gateway. It does not configure Mission AI.
 
+Before configuring Claude Code, [request NASA Chat access and create an API key](api-key.md).
+
 ## Install
 
 Use the current [Claude Code setup documentation](https://code.claude.com/docs/en/setup), then verify the installation:
@@ -13,16 +15,15 @@ claude doctor
 
 ## Configure
 
-1. [Get a NASA Chat API key](api-key.md).
-2. Merge the `env` and `model` settings from the [NASA Chat Claude Code template](../../templates/nasa-chat/claude-code-settings.json.example) into `~/.claude/settings.json`.
-3. In the terminal session where you launch Claude Code, provide your NASA Chat key without adding it to `settings.json`:
+1. Merge the `env` and `model` settings from the [NASA Chat Claude Code template](../../templates/nasa-chat/claude-code-settings.json.example) into `~/.claude/settings.json`.
+2. In the terminal session where you launch Claude Code, provide your NASA Chat key without adding it to `settings.json`:
 
    ```bash
    export ANTHROPIC_API_KEY="your-nasa-chat-key"
    claude
    ```
 
-4. Run `/status` to verify the configured base URL and environment-provided API key.
+3. Run `/status` to verify the configured base URL and environment-provided API key.
 
 ## Gateway notes
 

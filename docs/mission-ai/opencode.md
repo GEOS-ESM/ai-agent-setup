@@ -19,7 +19,7 @@ opencode --version
 
 `/connect` stores the credential locally outside the shared configuration. Do not add an `apiKey` to the template or commit local credentials.
 
-Mission AI's documented LiteLLM endpoint is OpenAI-compatible. Do not use it as a Claude Code gateway unless the Mission AI service owner explicitly documents an Anthropic-compatible interface.
+Mission AI's documented LiteLLM endpoint is OpenAI-compatible. This repository does not currently provide or validate a Claude Code setup; do not invent one unless the Mission AI service owner explicitly documents a supported interface.
 
 ## References
 

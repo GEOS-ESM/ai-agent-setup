@@ -18,7 +18,7 @@ NASA Chat is available through [OpenCode](docs/nasa-chat/opencode.md), [Claude C
 
 ### Mission AI
 
-Mission AI is available through [OpenCode](docs/mission-ai/opencode.md) and [Visual Studio Code](docs/mission-ai/vscode.md). Its documented LiteLLM endpoint is OpenAI-compatible, so it is not a Claude Code configuration.
+Mission AI setup is currently documented for [OpenCode](docs/mission-ai/opencode.md) and [Visual Studio Code](docs/mission-ai/vscode.md). A Claude Code setup has not been tested or documented here.
 
 ## Scope
 

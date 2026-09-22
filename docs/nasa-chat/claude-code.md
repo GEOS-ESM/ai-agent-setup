@@ -13,15 +13,16 @@ claude doctor
 
 ## Configure
 
-1. Merge the `env` and `model` settings from the [NASA Chat Claude Code template](../../templates/nasa-chat/claude-code-settings.json.example) into `~/.claude/settings.json`.
-2. In the terminal session where you launch Claude Code, provide your NASA Chat key without adding it to `settings.json`:
+1. [Get a NASA Chat API key](api-key.md).
+2. Merge the `env` and `model` settings from the [NASA Chat Claude Code template](../../templates/nasa-chat/claude-code-settings.json.example) into `~/.claude/settings.json`.
+3. In the terminal session where you launch Claude Code, provide your NASA Chat key without adding it to `settings.json`:
 
    ```bash
    export ANTHROPIC_API_KEY="your-nasa-chat-key"
    claude
    ```
 
-3. Run `/status` to verify the configured base URL and environment-provided API key.
+4. Run `/status` to verify the configured base URL and environment-provided API key.
 
 ## Gateway notes
 

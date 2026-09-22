@@ -14,7 +14,7 @@ Private, credential-safe guidance for using coding-agent clients and Visual Stud
 
 ### NASA Chat
 
-NASA Chat is available through [OpenCode](docs/nasa-chat/opencode.md), [Claude Code](docs/nasa-chat/claude-code.md), and [Visual Studio Code](docs/nasa-chat/vscode.md).
+First [get a NASA Chat API key](docs/nasa-chat/api-key.md). NASA Chat is available through [OpenCode](docs/nasa-chat/opencode.md), [Claude Code](docs/nasa-chat/claude-code.md), and [Visual Studio Code](docs/nasa-chat/vscode.md).
 
 ### Mission AI
 

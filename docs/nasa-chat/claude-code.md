@@ -29,7 +29,7 @@ claude doctor
 
 `ANTHROPIC_BASE_URL` is `https://api.asksage.ai.nasa.gov/server/anthropic`, with no trailing `/v1`. Claude Code appends `/v1/messages`; adding `/v1` here produces the invalid `/v1/v1/messages` path and can appear as a model error.
 
-The template disables adaptive thinking and experimental beta request fields because some gateway versions reject them. If the initial API-key approval was declined, Claude Code can return to the login selector and ignore the configured key. Follow the troubleshooting guidance before changing `~/.claude.json`.
+The template disables adaptive thinking and experimental beta request fields because some gateway versions reject them. If the initial API-key approval was declined, Claude Code can return to the login selector and ignore the configured key. Check `/status` for the active credential and gateway URL, then follow the [Claude Code gateway troubleshooting guide](https://code.claude.com/docs/en/llm-gateway-connect#troubleshoot-gateway-errors) or contact the service owner before changing `~/.claude.json`.
 
 ## References
 

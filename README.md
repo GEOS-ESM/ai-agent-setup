@@ -16,6 +16,8 @@ AI agent harnesses, including the clients documented in this repository, are not
 
 ## Services
 
+OpenCode and Visual Studio Code are the SI team's primary clients for these services, so their guides are the main paths through this repository. Other agent harnesses, including pi, Claude Code, and Codex, exist; a NASA Chat Claude Code guide is included for people who use it. The presence of a guide does not change the service or system restrictions above.
+
 ### NASA Chat
 
 First [get a NASA Chat API key](docs/nasa-chat/api-key.md). NASA Chat is available through [OpenCode](docs/nasa-chat/opencode.md), [Claude Code](docs/nasa-chat/claude-code.md), and [Visual Studio Code](docs/nasa-chat/vscode.md).

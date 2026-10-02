@@ -16,15 +16,15 @@ AI agent harnesses, including the clients documented in this repository, are not
 
 ## Services
 
-OpenCode and Visual Studio Code are the SI team's primary clients for these services, so their guides are the main paths through this repository. Other agent harnesses, including pi, Claude Code, and Codex, exist; a NASA Chat Claude Code guide is included for people who use it. The presence of a guide does not change the service or system restrictions above.
+OpenCode and Visual Studio Code are the SI team's primary clients for these services, so their guides are the main paths through this repository. Secondary CLI guides cover Claude Code for NASA Chat and Codex for both services. The presence of a guide does not change the service or system restrictions above.
 
 ### NASA Chat
 
-First [get a NASA Chat API key](docs/nasa-chat/api-key.md). NASA Chat is available through [OpenCode](docs/nasa-chat/opencode.md), [Claude Code](docs/nasa-chat/claude-code.md), and [Visual Studio Code](docs/nasa-chat/vscode.md).
+First [get a NASA Chat API key](docs/nasa-chat/api-key.md). Start with [OpenCode](docs/nasa-chat/opencode.md) or [Visual Studio Code](docs/nasa-chat/vscode.md); CLI alternatives are [Claude Code](docs/nasa-chat/claude-code.md) and [Codex](docs/nasa-chat/codex.md).
 
 ### Mission AI
 
-Mission AI setup is currently documented for [OpenCode](docs/mission-ai/opencode.md) and [Visual Studio Code](docs/mission-ai/vscode.md). A Claude Code setup has not been tested or documented here.
+Start with [OpenCode](docs/mission-ai/opencode.md) or [Visual Studio Code](docs/mission-ai/vscode.md). A [Codex CLI trial](docs/mission-ai/codex.md) is also documented, but the Mission AI gateway's Responses API compatibility remains unverified. A Claude Code setup has not been tested or documented here.
 
 ## Scope
 
@@ -35,10 +35,12 @@ The NASA Chat and Mission AI endpoint and model information here is for GMAO use
 ## Templates
 
 - [NASA Chat OpenCode](templates/nasa-chat/opencode.jsonc.example)
-- [NASA Chat Claude Code](templates/nasa-chat/claude-code-settings.json.example)
 - [NASA Chat VS Code](templates/nasa-chat/chatLanguageModels.json.example)
+- [NASA Chat Claude Code](templates/nasa-chat/claude-code-settings.json.example)
+- [NASA Chat Codex](templates/nasa-chat/codex.config.toml.example)
 - [Mission AI OpenCode](templates/mission-ai/opencode.jsonc.example)
 - [Mission AI VS Code](templates/mission-ai/chatLanguageModels.json.example)
+- [Mission AI Codex](templates/mission-ai/codex.config.toml.example)
 
 Copy a template to the client configuration location documented in its guide. Keep credentials in the approved local secret store or environment; never put a secret in the copied configuration.
 
@@ -50,3 +52,5 @@ Copy a template to the client configuration location documented in its guide. Ke
 - [Claude Code LLM gateways](https://code.claude.com/docs/en/llm-gateway)
 - [NASA Chat OpenCode integration reference](https://docs.asksage.ai/integrations/opencode/)
 - [NASA Chat Claude Code integration reference](https://docs.asksage.ai/integrations/claude-code/)
+- [Codex custom model providers](https://developers.openai.com/codex/config-file/config-advanced#custom-model-providers)
+- [NASA Chat Codex integration reference](https://docs.asksage.ai/integrations/codex/)

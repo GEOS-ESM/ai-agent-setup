@@ -1,0 +1,7 @@
+# Merge this provider table into ~/.codex/config.toml; do not replace other settings.
+# Supply NASA_CHAT_API_KEY through an approved environment mechanism.
+[model_providers.nasa_chat]
+name = "NASA Chat"
+base_url = "https://api.asksage.ai.nasa.gov/server/openai/v1"
+wire_api = "responses"
+env_http_headers = { "x-access-tokens" = "NASA_CHAT_API_KEY" }

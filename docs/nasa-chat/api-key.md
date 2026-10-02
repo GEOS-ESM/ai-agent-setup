@@ -18,4 +18,4 @@ Use this guide only if you are authorized to use NASA Chat.
 
 Treat the key as a password. Do not commit it, share it in chat or email, add it to a GitHub issue or pull request, or place it in a shared configuration file. Create a separate, descriptively named key for each client or device when practical, and revoke keys you no longer use.
 
-Continue with the applicable [OpenCode](opencode.md), [Claude Code](claude-code.md), or [Visual Studio Code](vscode.md) guide.
+Continue with the applicable [OpenCode](opencode.md), [Visual Studio Code](vscode.md), [Claude Code](claude-code.md), or [Codex](codex.md) guide.

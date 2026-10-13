@@ -10,8 +10,8 @@
         "baseURL": "https://api.asksage.ai.nasa.gov/server/anthropic/v1"
       },
       "models": {
-        "claude-sonnet-5": { "name": "Claude Sonnet 5" },
-        "claude-sonnet-4.6": { "name": "Claude Sonnet 4.6" },
+        "claude-opus-5.5": { "name": "Claude Opus 5.5" },
+        "claude-sonnet-5.5": { "name": "Claude Sonnet 5.5" },
         "claude-haiku-4.5": { "name": "Claude Haiku 4.5" }
       }
     },
@@ -50,11 +50,7 @@
         }
       },
       "models": {
-        "google-gemini-3.5-flash-gov": { "name": "Gemini 3.5 Flash Gov (Ask Sage)" },
         "google-gemini-3.7-flash": { "name": "Gemini 3.7 Flash (Ask Sage)" },
-        "google-gemini-3.1-flash-lite-gov": { "name": "Gemini 3.1 Flash Lite Gov (Ask Sage)" },
-        "google-gemini-2.5-pro": { "name": "Gemini 2.5 Pro (Ask Sage)" },
-        "google-gemini-2.5-flash": { "name": "Gemini 2.5 Flash (Ask Sage)" }
       }
     }
   }

@@ -1,6 +1,6 @@
 # NASA Chat with OpenCode
 
-Use this guide only if you are authorized to use NASA Chat. It configures both the OpenAI-compatible and Anthropic-compatible NASA Chat providers, but does not configure Mission AI.
+Use this guide only if you are authorized to use NASA Chat. It configures the Anthropic-compatible, OpenAI-compatible, xAI (Grok), and Google Gemini NASA Chat providers, but does not configure Mission AI.
 
 Before configuring OpenCode, [request NASA Chat access and create an API key](api-key.md).
 
@@ -15,7 +15,7 @@ opencode --version
 ## Configure
 
 1. Merge the [NASA Chat OpenCode template](../../templates/nasa-chat/opencode.jsonc.example) into `~/.config/opencode/opencode.jsonc`. Do not replace unrelated providers, plugins, or preferences.
-2. Choose an approved credential method for your service and device. If local OpenCode credential storage is approved, start OpenCode and run `/connect` for each NASA Chat provider you intend to use (`nasa_chat_anthropic` and/or `nasa_chat_openai`). Otherwise, add an `options.apiKey` reference such as `"{env:NASA_CHAT_API_KEY}"` to each relevant provider block in your local config, and supply that variable through an approved mechanism before starting OpenCode.
+2. Choose an approved credential method for your service and device. If local OpenCode credential storage is approved, start OpenCode and run `/connect` for each NASA Chat provider you intend to use (`nasa_chat_anthropic`, `nasa_chat_openai`, `nasa_chat_grok`, and/or `nasa_chat_google`). Otherwise, add an `options.apiKey` reference such as `"{env:NASA_CHAT_API_KEY}"` to each relevant provider block in your local config, and supply that variable through an approved mechanism before starting OpenCode. The Google provider also sends `NASA_CHAT_API_KEY` in the `x-access-tokens` header, which the template already sets; Ask Sage requires that header for Gemini.
 3. Start (or restart) OpenCode, then select an available NASA Chat model with `/models`.
 4. Run `opencode debug config` to confirm the configuration loaded. Its output may include resolved credentials; do not share it without redacting secrets.
 

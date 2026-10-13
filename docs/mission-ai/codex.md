@@ -15,7 +15,7 @@ codex --version
 ## Configure
 
 1. Merge the [Mission AI Codex provider template](../../templates/mission-ai/codex.config.toml.example) into **your user-level** `~/.codex/config.toml`. Keep existing settings and other provider definitions. Do not put this provider in a repository's `.codex/config.toml`: Codex ignores project-level provider and authentication settings.
-2. Make `NASA_LITELLM_API_KEY` available through an approved credential mechanism in the environment where you launch Codex. Codex reads it as a bearer token via `env_key`; the template contains no key itself. Do not place a literal key in the TOML or commit one. A variable set in one terminal may not be available to a separately launched GUI client.
+2. Make `NASA_MISSION_AI_API_KEY` available through an approved credential mechanism in the environment where you launch Codex. Codex reads it as a bearer token via `env_key`; the template contains no key itself. Do not place a literal key in the TOML or commit one. A variable set in one terminal may not be available to a separately launched GUI client.
 3. Start a new session with the provider and an approved Mission AI OpenAI model (for example, `gpt-5.6-luna`):
 
    ```bash

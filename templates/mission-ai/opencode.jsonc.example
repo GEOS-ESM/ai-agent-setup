@@ -1,6 +1,6 @@
 {
   "$schema": "https://opencode.ai/config.json",
-  "disabled_providers": ["opencode"],
+  "disabled_providers": ["azure", "amazon-bedrock", "opencode"],
   "share": "disabled",
   "provider": {
     "nasa_mission_ai": {

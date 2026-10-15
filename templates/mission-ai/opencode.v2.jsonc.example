@@ -1,6 +1,11 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "share": "disabled",
+  "policies": [
+    { "action": "provider.use", "resource": "opencode", "effect": "deny" },
+    { "action": "provider.use", "resource": "azure", "effect": "deny" },
+    { "action": "provider.use", "resource": "amazon-bedrock", "effect": "deny" }
+  ],
   "providers": {
     "nasa_mission_ai": {
       "name": "NASA Mission AI LiteLLM",

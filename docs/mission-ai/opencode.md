@@ -4,10 +4,31 @@ Use this guide only if you are authorized to use NASA Mission AI. It configures 
 
 ## Install
 
-Install OpenCode using the current [OpenCode documentation](https://opencode.ai/docs/) and confirm it is available:
+On NASA Discover, OpenCode and GitHub CLI (`gh`) are already installed. Load them with:
+
+```bash
+module load other/opencode
+module load other/gh
+```
+
+On a Mac, install both with Homebrew:
+
+```bash
+brew install anomalyco/tap/opencode
+brew install gh
+```
+
+Elsewhere, follow the current [OpenCode documentation](https://opencode.ai/docs/) and install [GitHub CLI](https://cli.github.com/). Then sign in to GitHub with `gh`, using SSH for Git operations as our group recommends:
+
+```bash
+gh auth login --git-protocol ssh
+```
+
+Confirm both tools are available:
 
 ```bash
 opencode --version
+gh --version
 ```
 
 ## Configure

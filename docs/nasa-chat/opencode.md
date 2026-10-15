@@ -20,11 +20,18 @@ brew install anomalyco/tap/opencode
 brew install gh
 ```
 
-Elsewhere, follow the current [OpenCode documentation](https://opencode.ai/docs/) and install [GitHub CLI](https://cli.github.com/). Then sign in to GitHub with `gh`, using SSH for Git operations as our group recommends:
+Elsewhere, install OpenCode from the [OpenCode V1 documentation](https://opencode.ai/docs) or the [OpenCode V2 documentation](https://opencode.ai/v2/docs), depending on which version you use. Install [GitHub CLI](https://cli.github.com/); its [usage examples](https://cli.github.com/manual/examples) show common commands. Then sign in to GitHub with `gh`, using SSH for Git operations as our group recommends:
 
 ```bash
 gh auth login --git-protocol ssh
 ```
+
+Answer the prompts as follows:
+
+1. **Where do you use GitHub?** Select `GitHub.com`.
+2. **Upload your SSH public key?** If your key is already on your GitHub account, which is the usual case, select `Skip`.
+3. **How would you like to authenticate GitHub CLI?** Select `Login with a web browser`. `gh` shows an 8-character one-time code in the form `XXXX-YYYY` and opens `https://github.com/login/device`. Enter the code there.
+4. Authorize GitHub CLI when prompted.
 
 Confirm both tools are available:
 

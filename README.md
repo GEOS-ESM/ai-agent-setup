@@ -1,6 +1,6 @@
-# AI Agent Setup for GMAO
+# SI Agent Setup for GMAO
 
-Private, credential-safe guidance for using coding-agent clients and Visual Studio Code with GMAO AI services.
+Private, credential-safe guidance for using coding-agent clients and Visual Studio Code with GMAO SI services.
 
 ## Start here
 
@@ -12,7 +12,7 @@ Private, credential-safe guidance for using coding-agent clients and Visual Stud
 
 ## NAS restriction
 
-AI agent harnesses, including the clients documented in this repository, are not allowed on [NASA Advanced Supercomputing (NAS)](https://www.nas.nasa.gov/) systems. Do not install or configure them there.
+SI agent harnesses, including the clients documented in this repository, are not allowed on [NASA Advanced Supercomputing (NAS)](https://www.nas.nasa.gov/) systems. Do not install or configure them there.
 
 ## Services
 

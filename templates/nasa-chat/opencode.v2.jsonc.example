@@ -15,9 +15,9 @@
         "apiKey": "{env:NASA_CHAT_API_KEY}"
       },
       "models": {
-        "claude-opus-5.5": { "name": "Claude Opus 5.5" },
-        "claude-sonnet-5.5": { "name": "Claude Sonnet 5.5" },
-        "claude-haiku-4.5": { "name": "Claude Haiku 4.5" }
+        "claude-opus-5.5": { "name": "Claude Opus 5.5", "compatibility": { "cacheFormat": "anthropic" } },
+        "claude-sonnet-5.5": { "name": "Claude Sonnet 5.5", "compatibility": { "cacheFormat": "anthropic" } },
+        "claude-haiku-4.5": { "name": "Claude Haiku 4.5", "compatibility": { "cacheFormat": "anthropic" } }
       }
     },
     "nasa_chat_openai": {
@@ -53,10 +53,10 @@
         "baseURL": "https://api.asksage.ai.nasa.gov/server/google/v1beta",
         // Ask Sage requires the x-access-tokens header; the Google SDK's default
         // x-goog-api-key header alone does not authenticate to Ask Sage.
-        "apiKey": "{env:NASA_CHAT_API_KEY}",
-        "headers": {
-          "x-access-tokens": "{env:NASA_CHAT_API_KEY}"
-        }
+        "apiKey": "{env:NASA_CHAT_API_KEY}"
+      },
+      "headers": {
+        "x-access-tokens": "{env:NASA_CHAT_API_KEY}"
       },
       "models": {
         "google-gemini-3.7-flash": { "name": "Gemini 3.7 Flash (Ask Sage)" }

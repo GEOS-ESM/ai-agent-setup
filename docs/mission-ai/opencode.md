@@ -1,6 +1,6 @@
 # Mission AI with OpenCode
 
-Use this guide only if you are authorized to use NASA Mission AI. It configures the Mission AI LiteLLM provider only and does not configure NASA Chat.
+Use this guide only if you are authorized to use NASA Mission AI. It configures the Mission AI LiteLLM provider only and does not configure NASA Chat. If you do not already have a Mission AI API key, contact the SI Team for more information.
 
 ## Install
 

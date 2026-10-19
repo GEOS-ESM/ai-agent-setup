@@ -1,6 +1,6 @@
 # Mission AI with Codex CLI
 
-Use this guide only if you are authorized to use NASA Mission AI. This configures the Mission AI LiteLLM gateway, not NASA Chat.
+Use this guide only if you are authorized to use NASA Mission AI. This configures the Mission AI LiteLLM gateway, not NASA Chat. If you do not already have a Mission AI API key, contact the SI Team for more information.
 
 **Compatibility note:** The [Mission AI VS Code template](../../templates/mission-ai/chatLanguageModels.json.example) documents `/v1/chat/completions`. Codex requires `/v1/responses` with streaming and tool calls. This deployment's Responses compatibility has not yet been validated; use the setup below as a local trial, and contact the service owner if the gateway does not support it.
 

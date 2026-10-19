@@ -16,7 +16,7 @@ SI agent harnesses, including the clients documented in this repository, are not
 
 ## Services
 
-OpenCode and Visual Studio Code are the SI team's primary clients for these services, so their guides are the main paths through this repository. Secondary CLI guides cover Claude Code for NASA Chat and Codex for both services. The presence of a guide does not change the service or system restrictions above.
+OpenCode and Visual Studio Code are the SI Team's primary clients for these services, so their guides are the main paths through this repository. Secondary CLI guides cover Claude Code for NASA Chat and Codex for both services. The presence of a guide does not change the service or system restrictions above.
 
 ### NASA Chat
 
@@ -24,7 +24,7 @@ First [get a NASA Chat API key](docs/nasa-chat/api-key.md). Start with [OpenCode
 
 ### Mission AI
 
-Start with [OpenCode](docs/mission-ai/opencode.md) or [Visual Studio Code](docs/mission-ai/vscode.md). A [Codex CLI trial](docs/mission-ai/codex.md) is also documented, but the Mission AI gateway's Responses API compatibility remains unverified. A Claude Code setup has not been tested or documented here.
+Start with [OpenCode](docs/mission-ai/opencode.md) or [Visual Studio Code](docs/mission-ai/vscode.md). A [Codex CLI trial](docs/mission-ai/codex.md) is also documented, but the Mission AI gateway's Responses API compatibility remains unverified. A Claude Code setup has not been tested or documented here. If you do not already have a Mission AI API key, contact the SI Team for more information.
 
 ## Scope
 

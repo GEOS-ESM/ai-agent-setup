@@ -1,6 +1,6 @@
 # Mission AI with Visual Studio Code
 
-Use this guide only if you are authorized to use NASA Mission AI. The template configures the Mission AI LiteLLM custom language model only and does not configure NASA Chat.
+Use this guide only if you are authorized to use NASA Mission AI. The template configures the Mission AI LiteLLM custom language model only and does not configure NASA Chat. If you do not already have a Mission AI API key, contact the SI Team for more information.
 
 1. In VS Code, run **Chat: Manage Language Models** from the Command Palette.
 2. Open `chatLanguageModels.json` from that view. On macOS, the usual location is `~/Library/Application Support/Code/User/chatLanguageModels.json`.

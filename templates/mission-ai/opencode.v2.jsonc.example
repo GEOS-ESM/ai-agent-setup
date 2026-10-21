@@ -15,9 +15,11 @@
         "apiKey": "{env:NASA_MISSION_AI_API_KEY}"
       },
       "models": {
-        "claude-opus-5.5": { "name": "Claude Opus 5.5", "compatibility": { "cacheFormat": "anthropic" } },
-        "claude-sonnet-5.5": { "name": "Claude Sonnet 5.5", "compatibility": { "cacheFormat": "anthropic" } },
-        "claude-haiku-5.5": { "name": "Claude Haiku 5.5", "compatibility": { "cacheFormat": "anthropic" } },
+        // Explicit limits matter: without them V2 assumes 200k context / 32k output
+        // for models outside its catalog, which makes compaction trigger far too early.
+        "claude-opus-5-5": { "name": "Claude Opus 5.5", "compatibility": { "cacheFormat": "anthropic" }, "limit": { "context": 1000000, "output": 128000 } },
+        "claude-sonnet-5-5": { "name": "Claude Sonnet 5.5", "compatibility": { "cacheFormat": "anthropic" }, "limit": { "context": 1000000, "output": 128000 } },
+        "claude-haiku-5-5": { "name": "Claude Haiku 5.5", "compatibility": { "cacheFormat": "anthropic" }, "limit": { "context": 1000000, "output": 128000 } },
         "gpt-6-astra": { "name": "GPT-6 Astra" },
         "gpt-5.6-sol": { "name": "GPT-5.6 Sol" },
         "gpt-5.6-terra": { "name": "GPT-5.6 Terra" },

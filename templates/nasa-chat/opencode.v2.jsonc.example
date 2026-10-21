@@ -15,8 +15,8 @@
         "apiKey": "{env:NASA_CHAT_API_KEY}"
       },
       "models": {
-        "claude-opus-5.5": { "name": "Claude Opus 5.5", "compatibility": { "cacheFormat": "anthropic" } },
-        "claude-sonnet-5.5": { "name": "Claude Sonnet 5.5", "compatibility": { "cacheFormat": "anthropic" } },
+        "claude-opus-5-5-gov": { "name": "Claude Opus 5.5", "compatibility": { "cacheFormat": "anthropic" } },
+        "claude-sonnet-5-5-gov": { "name": "Claude Sonnet 5.5", "compatibility": { "cacheFormat": "anthropic" } },
         "claude-haiku-4.5": { "name": "Claude Haiku 4.5", "compatibility": { "cacheFormat": "anthropic" } }
       }
     },

@@ -15,8 +15,8 @@
         "baseURL": "https://api.asksage.ai.nasa.gov/server/anthropic/v1"
       },
       "models": {
-        "claude-opus-5.5": { "name": "Claude Opus 5.5" },
-        "claude-sonnet-5.5": { "name": "Claude Sonnet 5.5" },
+        "claude-opus-5-5-gov": { "name": "Claude Opus 5.5" },
+        "claude-sonnet-5-5-gov": { "name": "Claude Sonnet 5.5" },
         "claude-haiku-4.5": { "name": "Claude Haiku 4.5" }
       }
     },

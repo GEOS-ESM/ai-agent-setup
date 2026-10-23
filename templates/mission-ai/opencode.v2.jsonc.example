@@ -20,11 +20,23 @@
         "claude-opus-5-5": { "name": "Claude Opus 5.5", "compatibility": { "cacheFormat": "anthropic" }, "limit": { "context": 1000000, "output": 128000 } },
         "claude-sonnet-5-5": { "name": "Claude Sonnet 5.5", "compatibility": { "cacheFormat": "anthropic" }, "limit": { "context": 1000000, "output": 128000 } },
         "claude-haiku-5-5": { "name": "Claude Haiku 5.5", "compatibility": { "cacheFormat": "anthropic" }, "limit": { "context": 1000000, "output": 128000 } },
+        "gemini-3.8-flash": { "name": "Gemini 3.8 Flash" }
+      }
+    },
+    // OpenAI models use the native OpenAI provider package; the openai-compatible
+    // package above has issues with them on Mission AI.
+    "nasa_mission_ai_openai": {
+      "name": "NASA Mission AI LiteLLM (OpenAI)",
+      "package": "@opencode/ai/providers/openai",
+      "settings": {
+        "baseURL": "https://proxy.fast.luna.nasa.gov",
+        "apiKey": "{env:NASA_MISSION_AI_API_KEY}"
+      },
+      "models": {
         "gpt-6-astra": { "name": "GPT-6 Astra" },
         "gpt-5.6-sol": { "name": "GPT-5.6 Sol" },
         "gpt-5.6-terra": { "name": "GPT-5.6 Terra" },
-        "gpt-5.6-luna": { "name": "GPT-5.6 Luna" },
-        "gemini-3.8-flash": { "name": "Gemini 3.8 Flash" }
+        "gpt-5.6-luna": { "name": "GPT-5.6 Luna" }
       }
     }
   }

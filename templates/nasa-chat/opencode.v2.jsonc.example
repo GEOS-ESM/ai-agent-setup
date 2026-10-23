@@ -17,9 +17,9 @@
       "models": {
         // Ask Sage doesn't report limits, so set them explicitly (verified by probing).
         // Without them V2 assumes 200k context / 32k output and compacts far too early.
-        "claude-opus-5-5-gov": { "name": "Claude Opus 5.5", "compatibility": { "cacheFormat": "anthropic" }, "limit": { "context": 1000000, "output": 128000 } },
-        "claude-sonnet-5-5-gov": { "name": "Claude Sonnet 5.5", "compatibility": { "cacheFormat": "anthropic" }, "limit": { "context": 1000000, "output": 128000 } },
-        "claude-haiku-4-5": { "name": "Claude Haiku 4.5", "compatibility": { "cacheFormat": "anthropic" }, "limit": { "context": 200000, "output": 64000 } }
+        "claude-opus-5-5-gov": { "name": "Claude Opus 5.5", "compatibility": { "cacheFormat": "anthropic", "supportsThinkingBlockBinding": false }, "limit": { "context": 1000000, "output": 128000 } },
+        "claude-sonnet-5-5-gov": { "name": "Claude Sonnet 5.5", "compatibility": { "cacheFormat": "anthropic", "supportsThinkingBlockBinding": false }, "limit": { "context": 1000000, "output": 128000 } },
+        "claude-haiku-5-5": { "name": "Claude Haiku 5.5", "compatibility": { "cacheFormat": "anthropic", "supportsThinkingBlockBinding": false }, "limit": { "context": 1000000, "output": 128000 } }
       }
     },
     "nasa_chat_openai": {

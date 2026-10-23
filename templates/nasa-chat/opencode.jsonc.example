@@ -55,7 +55,8 @@
         }
       },
       "models": {
-        "google-gemini-3.7-flash": { "name": "Gemini 3.7 Flash (Ask Sage)" },
+        "google-gemini-4-argon": { "name": "Gemini 4 Argon" },
+        "google-gemini-3.8-flash": { "name": "Gemini 3.8 Flash" }
       }
     }
   }

@@ -9,7 +9,7 @@
   "providers": {
     "nasa_chat_anthropic": {
       "name": "NASA Chat (Anthropic)",
-      "package": "@opencode/ai/providers/anthropic",
+      "package": "aisdk:@ai-sdk/anthropic",
       "settings": {
         "baseURL": "https://api.asksage.ai.nasa.gov/server/anthropic/v1",
         "apiKey": "{env:NASA_CHAT_API_KEY}"
@@ -45,7 +45,7 @@
     },
     "nasa_chat_openai": {
       "name": "NASA Chat (OpenAI)",
-      "package": "@opencode/ai/providers/openai",
+      "package": "aisdk:@ai-sdk/openai",
       "settings": {
         "baseURL": "https://api.asksage.ai.nasa.gov/server/openai/v1",
         "apiKey": "{env:NASA_CHAT_API_KEY}"
@@ -58,7 +58,7 @@
     },
     "nasa_chat_grok": {
       "name": "NASA Chat (xAI)",
-      "package": "@opencode/ai/providers/openai-compatible",
+      "package": "aisdk:@ai-sdk/openai-compatible",
       "settings": {
         "baseURL": "https://api.asksage.ai.nasa.gov/server/openai/v1",
         "apiKey": "{env:NASA_CHAT_API_KEY}"
@@ -71,7 +71,7 @@
     },
     "nasa_chat_google": {
       "name": "NASA Chat (Google Gemini)",
-      "package": "@opencode/ai/providers/google",
+      "package": "aisdk:@ai-sdk/google",
       "settings": {
         "baseURL": "https://api.asksage.ai.nasa.gov/server/google/v1beta",
         // Ask Sage requires the x-access-tokens header; the Google SDK's default
@@ -82,7 +82,8 @@
         "x-access-tokens": "{env:NASA_CHAT_API_KEY}"
       },
       "models": {
-        "google-gemini-3.7-flash": { "name": "Gemini 3.7 Flash (Ask Sage)" }
+        "google-gemini-4-argon": { "name": "Gemini 4 Argon" },
+        "google-gemini-3.8-flash": { "name": "Gemini 3.8 Flash" }
       }
     }
   }

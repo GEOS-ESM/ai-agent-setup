@@ -2,10 +2,17 @@
   "env": {
     "ANTHROPIC_BASE_URL": "https://api.asksage.ai.nasa.gov/server/anthropic",
     "ANTHROPIC_DEFAULT_OPUS_MODEL": "claude-opus-5-5-gov",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL_DESCRIPTION": "Third-tier complexity",
     "ANTHROPIC_DEFAULT_SONNET_MODEL": "claude-sonnet-5-5-gov",
-    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "claude-haiku-4.5",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL_DESCRIPTION": "General Purpose",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "claude-haiku-5-5",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL_DESCRIPTION": "Fastest and cheapest",
+    "ANTHROPIC_DEFAULT_FABLE_MODEL": "claude-fable-5-1",
+    "ANTHROPIC_DEFAULT_FABLE_MODEL_DESCRIPTION": "Highest tier, most complex, most expensive",
     "CLAUDE_CODE_DISABLE_ADAPTIVE_THINKING": "1",
-    "CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS": "1"
+    "CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS": "1",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "DISABLE_TELEMETRY": "1"
   },
   "model": "sonnet"
 }

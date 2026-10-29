@@ -14,9 +14,9 @@
     "vendor": "customendpoint",
     "apiType": "messages",
     "models": [
-      { "id": "claude-sonnet-5", "name": "Claude Sonnet 5", "url": "https://api.asksage.ai.nasa.gov/server/anthropic/v1/messages", "toolCalling": true, "vision": true, "maxInputTokens": 180000, "maxOutputTokens": 20000 },
-      { "id": "claude-sonnet-4.6", "name": "Claude Sonnet 4.6", "url": "https://api.asksage.ai.nasa.gov/server/anthropic/v1/messages", "toolCalling": true, "vision": true, "maxInputTokens": 180000, "maxOutputTokens": 20000 },
-      { "id": "claude-haiku-4.5", "name": "Claude Haiku 4.5", "url": "https://api.asksage.ai.nasa.gov/server/anthropic/v1/messages", "toolCalling": true, "vision": true, "maxInputTokens": 180000, "maxOutputTokens": 20000 }
+      { "id": "claude-opus-5-5-gov", "name": "Claude Opus 5.5", "url": "https://api.asksage.ai.nasa.gov/server/anthropic/v1/messages", "toolCalling": true, "vision": true, "maxInputTokens": 1000000, "maxOutputTokens": 128000 },
+      { "id": "claude-sonnet-5-5-gov", "name": "Claude Sonnet 5.5", "url": "https://api.asksage.ai.nasa.gov/server/anthropic/v1/messages", "toolCalling": true, "vision": true, "maxInputTokens": 1000000, "maxOutputTokens": 128000 },
+      { "id": "claude-haiku-4-5", "name": "Claude Haiku 4.5", "url": "https://api.asksage.ai.nasa.gov/server/anthropic/v1/messages", "toolCalling": true, "vision": true, "maxInputTokens": 200000, "maxOutputTokens": 64000 }
     ]
   }
 ]

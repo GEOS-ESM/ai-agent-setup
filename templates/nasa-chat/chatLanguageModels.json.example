@@ -16,7 +16,7 @@
     "models": [
       { "id": "claude-opus-5-5-gov", "name": "Claude Opus 5.5", "url": "https://api.asksage.ai.nasa.gov/server/anthropic/v1/messages", "toolCalling": true, "vision": true, "maxInputTokens": 1000000, "maxOutputTokens": 128000 },
       { "id": "claude-sonnet-5-5-gov", "name": "Claude Sonnet 5.5", "url": "https://api.asksage.ai.nasa.gov/server/anthropic/v1/messages", "toolCalling": true, "vision": true, "maxInputTokens": 1000000, "maxOutputTokens": 128000 },
-      { "id": "claude-haiku-4-5", "name": "Claude Haiku 4.5", "url": "https://api.asksage.ai.nasa.gov/server/anthropic/v1/messages", "toolCalling": true, "vision": true, "maxInputTokens": 200000, "maxOutputTokens": 64000 }
+      { "id": "claude-haiku-5-5", "name": "Claude Haiku 5.5", "url": "https://api.asksage.ai.nasa.gov/server/anthropic/v1/messages", "toolCalling": true, "vision": true, "maxInputTokens": 1000000, "maxOutputTokens": 128000 }
     ]
   }
 ]
